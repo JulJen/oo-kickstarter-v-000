@@ -1,7 +1,8 @@
 require 'pry'
 
 class Project
-  attr_accessor :title, :backed_project
+  attr_accessor :title
+  # , :backed_project
 
   def initialize(title)
     @title = title
